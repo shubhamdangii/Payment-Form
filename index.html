@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="#">
+            <header>
+                <h1>Payment form</h1>
+            </header>
+            <main>
+                <hr>
+                <section>
+                    <h2>User Information</h2>
+
+                    <p>
+                        <fieldset>
+                            <legend>Gender</legend>
+                            Male : <input type="radio" name="gender" id="gender"> Female : <input type="radio"
+                                name="gender" id="gender">
+                        </fieldset>
+                    </p>
+
+                    <p>
+                        Address :
+                        <textarea name="address" id="address" cols="30" rows="2"></textarea>
+                    </p>
+
+                    <p>
+                        Email :
+                        <input type="text" name="email" id="email">
+                    </p>
+
+                    <p>
+                        Pin Code :
+                        <input type="text" name="pincode" id="pincode">
+                    </p>
+                </section>
+
+                <section>
+
+                    <h2>Payment Information</h2>
+
+                    <p> We accept cards here :</p>
+                    <img src="/Payment form/pngfind.com-care-credit-logo-png-6648902.png" alt="cards logo">
+
+                    <p>
+                        Card Type :
+                        <select name="cardtype" id="cardtype">
+                            <option value="cardtype">VISA</option>
+                            <option value="cardtype">RUPE</option>
+                            <option value="cardtype"></option>
+                        </select>
+                    </p>
+
+                    <p>
+                        Card Number :
+                        <input type="text" name="cardnumber" id="cardnumber">
+                    </p>
+
+                    <p>
+                        Expiration Date :
+                        <input type="month" name="expdate" id="expdate">
+                    </p>
+
+                    <p>
+                        CVV :
+                        <input type="text" name="cvv" id="cvv">
+                    </p>
+
+                    <input type="submit" name="submit" id="submit" value="Pay Now">
+                </section>
+
+            </main>
+        </form>
+    </div>
+</body>
+
+</html>
